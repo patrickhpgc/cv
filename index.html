@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Patrick | Desenvolvedor Full Stack PHP</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/images/icone.ico" type="image/x-icon" />
+
+	<!-- Importation Fontawesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Importation Hamburguers CSS -->
+	<link rel="stylesheet" href="assets/css/hamburgers-master/dist/hamburgers.css">
+
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Default CSS -->
+	<link rel="stylesheet" href="assets/css/default.css">
+
+	<!-- Responsiveness CSS -->
+	<link rel="stylesheet" href="assets/css/responsiveness.css">
+
+
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="header">
+			<div class="container">
+				<div class="header--area">
+					<nav>
+						<div class="hamburger-div">
+							<button class="hamburger hamburger--spring-r" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="true/false" onclick="openNav()" id="btnNav">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</button>
+						</div>
+
+						<div id="navigation">
+							<ul>
+								<li><a href="#" id="linkMenu1">Home</a></li>
+								<li><a href="#skills" id="linkMenu2">Habilidades</a></li>
+								<li><a href="#formation" id="linkMenu3">Formação</a></li>
+								<li><a href="#projects" id="linkMenu4">Projetos</a></li>
+								<li><a href="https://patrickcordeiro.hashnode.dev/" target="_blank" id="linkMenu5">Blog</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="icons--area">
+						<a href="https://github.com/patrickhpgc" target="_blank"><i class="fab fa-github"></i></a>
+						<a href="https://linkedin.com/in/patrick-cordeiro-2323a5163" target="_blank"><i class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="overlay" id="overlay" onclick="closeNav()">
+	</div>
+
+	<section class="banner">
+		<div class="banner--area">
+			<div class="container">
+				<div class="bg--area">
+					<div class="bg--area-content">
+						<h1 class="h1-bold">Olá visitante! Eu sou o<br>Patrick</h1>
+						<p class="p2-regular">Desenvolvedor Full Stack Iniciante PHP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills">
+		<div class="container">
+			<div class="skills--area">
+				<h2 class="h2-title">Habilidades</h2>
+				<div class="skill--item">
+					<h2 class="h2-bold">Front-end</h2>
+					<div class="skill--item-icons">
+						<i class="fab fa-css3-alt"></i>
+						<i class="fab fa-html5"></i>
+						<i class="fab fa-js-square"></i>
+					</div>
+				</div>
+				<div class="skill--item">
+					<h2 class="h2-bold">Back-end</h2>
+					<div class="skill--item-icons">
+						<i class="fab fa-php"></i>
+						<i>
+							<img src="assets/images/mysql.svg" alt="">
+						</i>
+					</div>
+				</div>
+				<div class="skill--item">
+					<h2 class="h2-bold">Outras</h2>
+					<div class="skill--item-icons">
+						<i class="fas fa-atom"></i>
+						<i class="fab fa-git-square"></i>
+						<i class="fab fa-github"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="formation">
+		<div class="container">
+			<div class="formation--area">
+				<h2 class="h2-title">Formação</h2>
+				<div class="formation--item">
+					<div class="formation--year">
+						<h2 class="h2-bold">2016</h2>
+						<div class="line">
+
+						</div>
+					</div>
+					<div class="formation--content">
+						<h2 class="h2-bold">SENAI/SC - Serviço Nacional de Aprendizagem Industrial</h2>
+						<p class="p2-bold">Curso técnico</p>
+						<p class="p2-regular">Copetência geral:<br>
+							Programar, testar e manter softwares, aplicando metodologias e padrões de desenvolcimento, normas técnicas, de qualidade,
+							de saúde e segurança do trabalho e preservação ambiental.
+						</p>
+					</div>
+				</div>
+				<div class="formation--item">
+					<div class="formation--year">
+						<h2 class="h2-bold">2018</h2>
+						<div class="line">
+						</div>
+					</div>
+					<div class="formation--content">
+						<h2 class="h2-bold">Estácio de sá</h2>
+						<p class="p2-bold">Análise e desenvolvimento de sistemas</p>
+						<p class="p2-regular">O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas na Estácio visa capacitar o profissional a desenvolver, analisar, projetar e implantar sistemas de informação, informatização e
+							automação, de forma a suprir as necessidades crescentes das empresas de todos os portes quanto a otimização visando o aumento da competitividade.
+						</p>
+					</div>
+				</div>
+				<div class="formation--item">
+					<div class="formation--year">
+						<h2 class="h2-bold">2019</h2>
+						<div class="line">
+						</div>
+					</div>
+					<div class="formation--content">
+						<h2 class="h2-bold">Let’s talk school idiomas</h2>
+						<p class="p2-bold">Curso técnico</p>
+						<p class="p2-regular">
+							Usa-se uma Abordagem Comunicativa como metodologia de ensino, onde as quatro habilidades linguísticas são abordadas de forma natural, ou seja, ENTENDER, FALAR, LER E ESCREVER em inglês, dessa forma, ensina-se da mesma
+							forma que se a prende nossa língua materna (português), assim se aprende de forma natural um segundo idioma.
+						</p>
+					</div>
+				</div>
+				<div class="formation--item">
+					<div class="formation--year">
+						<h2 class="h2-bold">2020</h2>
+						<div class="line">
+						</div>
+					</div>
+					<div class="formation--content">
+						<h2 class="h2-bold">Udemy</h2>
+						<p class="p2-bold">Curso Online</p>
+						<p class="p2-regular">
+							Desenvolvimento de um sistema de cadastro de clientes em PHP, aplicando o CRUD e utilizando banco de dados (MySQL);
+							<br>
+							Unidade curricular:
+							<br>
+							1 - Porgramação PHP;<br>
+							2 - Programação Orientada a Objetos;<br>
+							3 - Modelo MVC (Model, View, Controller);<br>
+							4 - Utilização de banco de dados MySQL;
+						</p>
+					</div>
+				</div>
+				<div class="formation--item">
+					<div class="formation--year">
+						<h2 class="h2-bold">2021</h2>
+						<div class="line">
+						</div>
+					</div>
+					<div class="formation--content">
+						<h2 class="h2-bold">B7 web</h2>
+						<p class="p2-bold">Curso Online</p>
+						<p class="p2-regular">
+							Atividades utilizando CSS3 e HTML5;<br>
+							Desenvolvimento de layouts utilizando as mais diversas ferramentas oferecidas pelo HTML5 e CSS3;<br>
+							Aprendizado sobre o significados das tags HTML, onde e quado usar;
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="projects">
+		<div class="container">
+			<div class="projects--area">
+				<h2 class="h2-title">Projetos</h2>
+				<div class="projects--items">
+					<div class="projects--item">
+						<div class="projects--item-box">
+							<h2 class="h2-bold">Website Awax</h2>
+							<p class="p2-regular">Projeto desenvolvido em aula da B7 Web com flexbox.</p>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+							</ul>
+							<a href="https://patrickhpgc.github.io/awax/" target="_blank" class="button p2-bold">Visitar</a>
+						</div>
+					</div>
+
+					<div class="projects--item">
+						<div class="projects--item-box">
+							<h2 class="h2-bold">Calculadora JS</h2>
+							<p class="p2-regular">Calculadora de soma.</p>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JAVASCRIPT</li>
+							</ul>
+							<a href="https://patrickhpgc.github.io/calculadora-js/" target="_blank" class="button p2-bold">Visitar</a>
+						</div>
+					</div>
+
+					<div class="projects--item">
+						<div class="projects--item-box">
+							<h2 class="h2-bold">Website Starbucks</h2>
+							<p class="p2-regular">Cópia do site da starbucks desenvolvido em aula da B7Web com uso de flexbox e grid.</p>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+							</ul>
+							<a href="https://patrickhpgc.github.io/starbucks-website-copy/" target="_blank" class="button p2-bold">Visitar</a>
+						</div>
+					</div>
+
+					<div class="projects--item">
+						<div class="projects--item-box">
+							<h2 class="h2-bold">Website Institucional</h2>
+							<p class="p2-regular">Website institucional. Tem integração com php na aba contato e recursos javascript.</p>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JAVASCRIPT</li>
+								<li>PHP</li>
+							</ul>
+							<a href="https://analiceramlow.com/" target="_blank" class="button p2-bold">Visitar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="footer--icons-area">
+				<a href="https://github.com/patrickhpgc" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://linkedin.com/in/patrick-cordeiro-2323a5163" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</div>
+			<a href="https://patrickcordeiro.hashnode.dev/" target="_blank">Blog</a>
+			<p class="p2-regular">Desenvolvido por Patrick Cordeiro</p>
+		</div>
+	</footer>
+
+
+	<script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
